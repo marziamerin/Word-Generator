@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       itemCount: 300,
                       itemBuilder: ((context, index) => ListTile(
                               title: Card(
-                            color: Colors.deepPurple[100],
+                            color: Colors.lightBlueAccent[100],
                             child: ListTile(
                               title: Text("${provider.word[index]}"),
                               onTap: () => Provider.of<HomeProvider>(context,
