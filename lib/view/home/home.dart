@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 300,
                 padding: const EdgeInsets.all(10),
                 decoration: BoxDecoration(
-                    color: Colors.deepOrange[200],
+                    color: Colors.brown,
                     borderRadius: BorderRadius.circular(12)),
                 child: Center(
                   child: Consumer<HomeProvider>(
@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       itemCount: 300,
                       itemBuilder: ((context, index) => ListTile(
                               title: Card(
-                            color: Colors.deepPurple[200],
+                            color: Colors.deepPurple[100],
                             child: ListTile(
                               title: Text("${provider.word[index]}"),
                               onTap: () => Provider.of<HomeProvider>(context,
